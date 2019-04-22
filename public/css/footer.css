@@ -1,0 +1,61 @@
+footer{
+    margin-top: 5%;
+    width: 100%;
+    background-color: #30466c;
+    left: 0;
+    bottom: 0;
+    padding-bottom: 30px;
+}
+
+.txt-footer {
+    color: white;
+}
+
+#faceb{
+    margin-top: 40px;
+    font-size: 45px;
+    padding-right: 10px; 
+    color: white
+}
+
+#twitter{
+    color: white;
+    padding-left: 10px;
+    font-size: 50px;
+}
+
+#linkedin{
+    color: white;
+    padding-left: 10px;
+    font-size: 50px;
+}
+
+#linkedin:hover{
+    color: #0e76a8;
+}
+
+#twitter:hover{
+    color: #00acee;
+}
+
+#faceb:hover{
+    color:black;
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+    #linkedin{
+        font-size: 30px;
+        margin-top: 20px;
+        margin-bottom: 15px;
+    }
+    #twitter{
+        font-size: 30px;
+        margin-top: 20px;
+        margin-bottom: 15px;
+    }
+    #faceb{
+        font-size: 30px;
+        margin-top: 20px;
+        margin-bottom: 15px;
+    }
+}

@@ -1,0 +1,12 @@
+body {
+    margin-top: 100px;
+}
+
+div.contAviso {
+    color: black;
+}
+
+span {
+    font-weight: bold;
+    color: #9D1C25;
+}
