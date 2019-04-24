@@ -304,3 +304,11 @@ h1.toogle:nth-child(3) {
 #sendBtn {
     opacity: 0.6;
 }
+
+ul {
+    text-align: start !important;
+}
+
+a .linkServ {
+    padding: 40px;
+}

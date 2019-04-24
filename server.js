@@ -9,7 +9,39 @@ app.use(bodyParser.json());
 app.use(express.static(__dirname + "/public"));
 
 app.get('/', (req, res)=>{
-    res.sendFile(__dirname + '/views/index.html')
+  res.sendFile(__dirname + '/views/index.html')
+});
+
+app.get('/TAD', (req, res)=>{
+  res.sendFile(__dirname + '/views/TAD.html')
+});
+
+app.get('/TD', (req, res)=>{
+  res.sendFile(__dirname + '/views/TD.html')
+});
+
+app.get('/ES', (req, res)=>{
+  res.sendFile(__dirname + '/views/ES.html')
+});
+
+app.get('/PL', (req, res)=>{
+  res.sendFile(__dirname + '/views/PL.html')
+});
+
+app.get('/PD', (req, res)=>{
+  res.sendFile(__dirname + '/views/PD.html')
+});
+
+app.get('/EC', (req, res)=>{
+  res.sendFile(__dirname + '/views/EC.html')
+});
+
+app.get('/BD', (req, res)=>{
+  res.sendFile(__dirname + '/views/BD.html')
+});
+
+app.get('/LP', (req, res)=>{
+  res.sendFile(__dirname + '/views/LP.html')
 });
 
 app.post('/subscribe', (req, res) => {
