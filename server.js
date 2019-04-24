@@ -44,6 +44,30 @@ app.get('/LP', (req, res)=>{
   res.sendFile(__dirname + '/views/LP.html')
 });
 
+app.get('/TGNL', (req, res)=>{
+  res.sendFile(__dirname + '/views/TGNL.html')
+});
+
+app.get('/ECI', (req, res)=>{
+  res.sendFile(__dirname + '/views/ECI.html')
+});
+
+app.get('/GNV', (req, res)=>{
+  res.sendFile(__dirname + '/views/GNV.html')
+});
+
+app.get('/GD', (req, res)=>{
+  res.sendFile(__dirname + '/views/GD.html')
+});
+
+app.get('/CPG', (req, res)=>{
+  res.sendFile(__dirname + '/views/CPG.html')
+});
+
+app.get('/QD', (req, res)=>{
+  res.sendFile(__dirname + '/views/QD.html')
+});
+
 app.post('/subscribe', (req, res) => {
     if(
       req.body.captcha === undefined ||

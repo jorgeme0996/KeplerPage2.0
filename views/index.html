@@ -201,10 +201,10 @@
                     <hr>
                     <div class="col-md-6">
                         <ul>
-                            <a href="#" class="linkServ"><p><li>Terminales de Gas Natural Licuado (TGNL)</li></p></a>
-                            <a href="#" class="linkServ"><p><li>Estaciones de Compresión Industrial (ECI)</li></p></a>
-                            <a href="#" class="linkServ"><p><li>Estaciones de Gas Natural Vehicular (GNV)</li></p></a>
-                            <a href="#" class="linkServ"><p><li>Gasoducto (GD)</li></p></a>
+                            <a href="/TGNL" class="linkServ"><p><li>Terminales de Gas Natural Licuado (TGNL)</li></p></a>
+                            <a href="/ECI" class="linkServ"><p><li>Estaciones de Compresión Industrial (ECI)</li></p></a>
+                            <a href="/GNV" class="linkServ"><p><li>Estaciones de Gas Natural Vehicular (GNV)</li></p></a>
+                            <a href="/GD" class="linkServ"><p><li>Gasoducto (GD)</li></p></a>
                         </ul>
                     </div>
                 </div>
@@ -219,8 +219,8 @@
                     <hr>
                     <div class="col-md-6">
                         <ul>
-                            <a href="#" class="linkServ"><p><li>Complejos Procesadores de Gas (CPG)</li></p></a>
-                            <a href="#" class="linkServ"><p><li>Quimioductos (QD)</li></p></a>
+                            <a href="/CPG" class="linkServ"><p><li>Complejos Procesadores de Gas (CPG)</li></p></a>
+                            <a href="/QD" class="linkServ"><p><li>Quimioductos (QD)</li></p></a>
                         </ul>
                     </div>
                 </div>
@@ -289,7 +289,7 @@
                 <textarea class="form-control" id="desCom"  rows="3"></textarea>
                 <p>* Opcional</p>    
             </div>
-            <p id="linkAviso">* No compartiremos tu información con nadie. <a href="/aviso">Revisa nuestro aviso de privacidad</a></p>
+            <p id="linkAviso">* No compartiremos tu información con nadie. <a type="button" data-toggle="modal" data-target=".bd-example-modal-lg">Revisa nuestro aviso de privacidad</a></p>
             <div class="g-recaptcha" data-sitekey="6Lc35J0UAAAAADDNJ8xZx1L7Wnyktq1q-PsnENKO" data-callback="recaptcha_callback"></div>
             <button type="submit" id="sendBtn" class="vidBtn" disabled>Enviar</button>
         </form>
@@ -307,10 +307,46 @@
         </div>
         <div class="modal-body">
           <h3>Gracias por enviar tu información.</h3>
-          <h4>En breve nos pondremos en contacto contigo.</h4>
+          <h3>En breve nos pondremos en contacto contigo.</h3>
         </div>
     </div>
   </div>
+</div>
+
+<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content aviso">
+            <div class="modal-header">
+                <h5 class="modal-title">Aviso de privacidad</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close" value="Actualizar" onclick="location.reload()">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="container contAviso">
+                    <p> <span> KEPLER OIL & GAS, S.A. DE C.V.</span> Con domicilio en Avenida Constituyentes No. 57, Torre B Piso 8, Col. Cimatario, C.P: 76030 en cuidad de Querétaro, como parte de los procesos de consultoría solicita a sus clientes alguna información de carácter personal, y se hace responsable de usar los mismos exclusivamente para las finalidades previstas en el presente Aviso de Privacidad. En caso de que sea necesario utilizar los datos para un fin distinto, se le requerirá previamente por escrito, su consentimiento<span>.</span></p>
+                    <br>
+                    <p>Asimismo, cualquier cambio en el presente Aviso de Privacidad se le informará por escrito a la dirección de correo electrónico que para tal fin nos proporcione<span>.</span> </p>
+                    <br>
+                    <p>La información requerida será usada para la realización de la Prestación de Servicio de Consultoría, considerada la información requerida como sensible según la Ley Federal de Protección de Datos Personales en Posesión de los Particulares<span>.</span></p>
+                    <br>
+                    <p>Usted tiene derecho de acceder, rectificar y cancelar sus datos personales, así como de oponerse al tratamiento de los mismos o revocar el consentimiento; sin efecto retroactivo a los procesos ya realizados y acordados con el contrato del servicio, que para tal fin nos haya otorgado, informando por escrito, por la de vía correo electrónico, dirigido al consultor asignado para su proceso<span>.</span> </p>
+                    <br>
+                    <p>Una vez que los datos personales proporcionados dejen de ser necesarios para el cumplimiento de las finalidades previstas en este Aviso y las disposiciones legales aplicables, se procederá a su cancelación, o solicitud de reserva de los mismos para siguientes servicios<span>.</span> </p>
+                    <br>
+                    <p>Si está de acuerdo con el presente aviso y el uso de sus datos personales, puede continuar con la contratación de los servicios de consultoría, así como proceder a la entrega de la información solicitada vía electrónica y/o en nuestras oficinas de atención<span>.</span> </p>
+                    <br>
+                    <p>Asimismo, le informamos que sus datos personales sólo podrán ser tratados y transferidos dentro y fuera del país, en casos de procesos internos para la Prestación de Servicio. Si usted no manifiesta por escrito, su oposición para que sus datos personales sean transferidos, se entenderá que ha otorgado su consentimiento para ello<span>.</span></p>
+                    <br>
+                    <p>En el marco del párrafo anterior, la “transferencia” comprende toda comunicación de datos realizada a algún tercero. De cualquier forma, <span>KEPLER OIL & GAS, S.A. DE C.V.</span> tomará las medidas necesarias y suficientes para garantizar que el presente Aviso de Privacidad sea respetado en todo momento<span>.</span></p>
+                    <br>
+                    <p>Si está de acuerdo con el presente aviso y el uso de sus datos personales, puede continuar con el proceso de la Prestación de Servicio, así como proceder al envío de la información solicitada<span>.</span></p>
+                    <br>
+                    <p>Cualquier duda o consulta de este aviso de privacidad podrá consultarla directamente con su consultor<span>.</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 
 <section id="ubicacion">

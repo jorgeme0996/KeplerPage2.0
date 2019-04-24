@@ -312,3 +312,11 @@ ul {
 a .linkServ {
     padding: 40px;
 }
+
+div.modal-content{
+    text-align: center;
+}
+
+div.aviso {
+    text-align: start !important;
+}
