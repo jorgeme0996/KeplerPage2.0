@@ -17,7 +17,6 @@ $(document).ready(function() {
 	
 	function createScene(element, i) {
 		var name = 'project' + i;
-		console.log(name);
 		 var name = new ScrollMagic.Scene({
 		triggerElement: element 
 	})

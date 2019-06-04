@@ -320,3 +320,16 @@ div.modal-content{
 div.aviso {
     text-align: start !important;
 }
+
+section#contacto, section#ubicacion, section#noticias {
+    padding-top: 0px !important; 
+}
+
+section#noticias{
+    padding-bottom: 5px !important; 
+}
+
+.display-noticias{
+    display: flex;
+    justify-content: space-around;
+}
